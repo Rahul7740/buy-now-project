@@ -1,0 +1,66 @@
+
+.fill-main-div{
+    display: none;
+    width: 375px;
+    margin: 50px auto;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s;
+    z-index: 33;
+}
+.padding_20{
+    padding: 20px;
+}
+.filter-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.filter-wrap{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.filter-btns{
+    padding: 10px 30px;
+    background-color: antiquewhite;
+}
+.applynew{
+    visibility: visible;
+    opacity: 1;
+}
+.overlay{
+            position: fixed; /* Sit on top of the page content */
+            display: none;
+            transition: 0.3s;
+            width: 100%; /* Full width (cover the whole page) */
+            height: 100%; /* Full height (cover the whole page) */
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+            z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+            cursor: pointer; /* Add a pointer on hover */
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.5s;
+            filter: drop-shadow(8px 8px 10px black);
+}
+.applyoverlay{
+    visibility: visible;
+    opacity: 1;
+}
+@media (max-width: 600px) {   
+    .fill-main-div{
+        display: inline;
+    }
+    .overlay{
+        display: block;
+    }
+}

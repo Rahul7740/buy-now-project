@@ -1,0 +1,41 @@
+.f-padding-control{
+    padding: 80px 0;  
+}
+.s-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.help_c-search{
+    padding: 10px 80px 10px 15px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d8d6e8;
+}
+.justify-c-center{
+    justify-content: center;   
+}
+.help_c-paragraphs-div{
+    margin: 40px 0;
+    padding: 50px;
+    border: 1px solid #ebe9f3;
+    border-radius: 15px;
+}
+.margin-20-20px{
+    margin: 20px 0;
+}
+.h_C-paragraphs{
+    margin-top: 30px;
+}
+/* Breakpoints for screen */
+
+@media (max-width: 600px) {
+    .s-between{
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+    }
+    .help_c-paragraphs-div{
+        padding: 30px;
+    }
+}

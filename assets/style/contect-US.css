@@ -1,0 +1,30 @@
+.contact-us-full-div{
+    margin: 40px 0 80px 0;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 24px;
+    
+}
+.contact-us-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 20px;
+    align-items: start;
+}
+.contect-us-inputs{
+    border: 1px solid #D8D6E8;
+    padding: 16px 20px;
+    border-radius: 30px;
+    width: 100%;
+}
+/* Breakpoints for screen */
+
+@media (max-width: 848px) {
+    .contact-us-full-div{
+        grid-template-columns: 1fr;
+    }
+    .map-img{
+        margin: 0 auto;
+    }
+}
