@@ -304,7 +304,7 @@
   
   /* best-s-products start */
   .best-s-product-4{
-    background-image: url(/assets/images/best-s-product-4.png);
+    background-image: url(../../assets/images/best-s-product-4.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -363,7 +363,7 @@
     background-color: #67517A;
     border-radius: 25px;
     position: relative;
-    background-image: url(/assets/images/benner-section-overley.png);
+    background-image: url(../../assets/images/benner-section-overley.png);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
